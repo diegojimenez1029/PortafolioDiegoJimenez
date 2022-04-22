@@ -1,0 +1,64 @@
+/*Este es el selector del cuerpo completo del proyecto en el que modificamos la letra que contendra y el fondo de todas las páginas del proyecto*/
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, Helvetica, sans-serif;
+    background-color: aquamarine;
+    font-size: 15px;
+}
+/* Este es el selector  de la imagen  a través de la clase .center de la página de inicio en el que modificamos su tamaño y su posicion dentro del contenedor */
+
+.center {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    padding: 20px;
+    width: 50%;
+}
+
+/* Modificador de la barra de navegacion agregando colores, tamaños, alineamiento   */
+nav{
+    color: aliceblue;
+    list-style: none;
+    padding: 0;
+    background: rgb(50, 5, 127);
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+/* Modificador de color para los links de navegacion */
+a{color:white}
+/* Alineacion de las listas en el centro de la pagina */
+li {
+    display: inline;
+
+}
+/* Modificador del text area donde modifica su tamaño, solamente modifica el id mensaje */
+#mensaje{
+    width: 300px;
+    height: 200px;
+    word-break: break-word;
+
+}
+/* Modificador de las cajas de texto del formulario */
+.caja {
+
+    width:300px;
+}
+/* Modificador de la forma de la tabla y su tamaño */
+table {
+    width: 100%;
+    border: 1px solid #000;
+ }
+
+ /* Modificador de las filas */
+ th, td {
+    width: 25%;
+    text-align: center;
+    vertical-align: top;
+    border: 1px solid #000;
+ }
+/* Modificador del pie de pagina */
+ footer {
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: 1em;}
